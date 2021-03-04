@@ -5,8 +5,8 @@ const api={
 }
 function App() {
   const [query,setQuery]=useState('');
+  // using react hook with hello world
   const [weather,setWeather]=useState({});
-
   const search=evt=>{
     if(evt.key==="Enter"){
       fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
@@ -18,6 +18,7 @@ function App() {
       });
     }
   }
+  console.log(search)
 
   const dateBuilder=(d)=>{
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
