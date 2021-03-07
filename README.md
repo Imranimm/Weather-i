@@ -1,3 +1,17 @@
+Here is the Video Link of the Applicaation : 
+
+https://soapbox.wistia.com/videos/VbLE3psYig
+
+ After Cloning the Repository :
+ 1. Open 'Command Prompt' .
+ 2. Type 'npm start' or 'yarn start'.
+ 3. Now the Application will Run on your Default Browser.
+
+...If Error Occured While starting the app try :
+1. Type 'npm install' 
+2. After the installation Type 'npm start' or 'yarn start'.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
